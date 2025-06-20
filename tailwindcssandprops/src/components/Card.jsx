@@ -1,5 +1,5 @@
 
-export default function Card(props){
+function Card(props){
 
     console.log(props.username);
     
@@ -19,3 +19,5 @@ export default function Card(props){
     </>
     )
 }
+
+export default Card;
